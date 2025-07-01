@@ -1,22 +1,23 @@
-body {
-  min-height: 3dvb;
-}
 .jumbotron {
-  padding-top: 3rem;
-  background-color: #a79277;
-}
-
-#projects {
-  padding-top: 2rem;
-  background-color: #987070;
-}
-
-#contact {
-  padding-top: 2rem;
-  background-color: #d0b8a8;
+  background-color: #D1BB9E;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 #about {
-  padding-top: 2rem;
-  background-color: #d1bb9e;
+  background-color: #EAD8C0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#projects {
+  background-color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contact {
+  background-color: #D1BB9E;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }

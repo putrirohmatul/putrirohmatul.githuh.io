@@ -127,6 +127,57 @@
   </div>
 </section>
 
+   <!-- Biodata -->
+  <section id="biodata" class="py-5" style="background-color: #ffffff;">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2>Biodata Diri</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Nama Lengkap</th>
+                <td>Putri Rohmatul Khasanah</td>
+              </tr>
+              <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Malang, 15 Mei 2006</td>
+              </tr>
+              <tr>
+                <th>Jenis Kelamin</th>
+                <td>Perempuan</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Jl. Contoh Alamat No. 123, Malang</td>
+              </tr>
+              <tr>
+                <th>Agama</th>
+                <td>Islam</td>
+              </tr>
+              <tr>
+                <th>Hobi</th>
+                <td>Membaca, Ngoding, Desain</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>putri@email.com</td>
+              </tr>
+              <tr>
+                <th>No. HP</th>
+                <td>0812-3456-7890</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- About -->
  <section id="about" style="background-color: #ffffff;">
   <div class="container">
@@ -207,47 +258,14 @@
           </div>
         </div>
       </div>
-    <!-- contact -->
-    <section id="contact" style="background-color: #ffffff;">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col mb-3">
-        <h2>Contact Me!</h2>
-      </div>
+    <!-- Contact -->
+  <section id="contact" class="bg-light text-center">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p class="mt-3">Jika ingin menghubungi saya, bisa melalui:</p>
+      <p>Email: putri@email.com<br>No HP: 0812-3456-7890</p>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form name="put">
-          <div class="mb-3">
-            <label for="name" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control" id="name" required />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" required />
-          </div>
-          <div class="mb-3">
-            <label for="pesan" class="form-label">Pesan</label>
-            <textarea class="form-control" id="pesan" rows="3" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Kirim</button>
-        </form>
-
-        <script>
-          const scriptURL = 'https://script.google.com/macros/s/AKfycbyBpfKQrYBOOTi-hYRkS0VfH6YfV1-o2uBCb-LxTuVMeJjN1mW80ttTSJNV9xbxEOgp/exec';
-          const form = document.forms["put"];
-
-          form.addEventListener("submit", (e) => {
-            e.preventDefault();
-            fetch(scriptURL, { method: "POST", body: new FormData(form) })
-              .then((response) => console.log("Success!", response))
-              .catch((error) => console.error("Error!", error.message));
-          });
-        </script>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
     <!-- akhir contact -->
     <!-- footer -->
 <div class="footer">

@@ -1,21 +1,23 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.jumbotron {
+  background-color: #D1BB9E;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
+#about {
+  background-color: #EAD8C0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-main {
-  flex: 1;
+#projects {
+  background-color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-footer {
-  background-color: #6c52a5; /* warna ungu */
-  color: white;
-  padding: 20px;
-  text-align: center;
+#contact {
+  background-color: #6c52a5;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }

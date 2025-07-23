@@ -1,15 +1,21 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* Global Layout */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #222222;
+  background-color: #ffffff;
+  line-height: 1.6;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  color: #000000;
 }
 
 /* Main Content Wrapper */
@@ -17,14 +23,39 @@ main {
   flex: 1;
 }
 
+/* Headings */
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #333333;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #444444;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #555555;
+}
+
+p {
+  font-size: 16px;
+}
+
 /* Navbar */
 .navbar {
   background-color: #725CAD !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: #ffffff !important;
+  font-size: 18px;
 }
 
 /* Jumbotron */
@@ -32,6 +63,8 @@ main {
   background-color: #D1BB9E;
   padding-top: 6rem;
   padding-bottom: 3rem;
+  text-align: center;
+  color: #000000;
 }
 
 /* Section: Biodata, About, Projects, Contact */
@@ -46,6 +79,7 @@ main {
   padding-top: 5rem;
   padding-bottom: 5rem;
   scroll-margin-top: 70px;
+  color: #000000;
 }
 
 #projects {
@@ -53,11 +87,12 @@ main {
   padding-top: 5rem;
   padding-bottom: 5rem;
   scroll-margin-top: 100px;
+  color: #000000;
 }
 
 #contact {
   background-color: #6c52a5;
-  color: white;
+  color: #ffffff;
   padding-top: 5rem;
   padding-bottom: 5rem;
   scroll-margin-top: 70px;
@@ -69,6 +104,7 @@ main {
   color: white;
   text-align: center;
   padding: 40px 0;
+  font-size: 14px;
 }
 
 /* Image */
@@ -82,12 +118,14 @@ main {
 .card {
   background-color: #ffffff;
   border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 /* Button */
 .btn-primary {
   background-color: #000000;
   border-color: #000000;
+  font-weight: 500;
 }
 
 .btn-primary:hover {

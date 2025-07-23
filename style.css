@@ -45,13 +45,14 @@ main {
   background-color: #EAD8C0;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  margin-top: 2rem;
+  scroll-margin-top: 70px;
 }
 
 #projects {
   background-color: #ffffff;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  scroll-margin-top: 70px;
 }
 
 #contact {
@@ -59,6 +60,7 @@ main {
   color: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  scroll-margin-top: 70px;
 }
 
 /* Footer */

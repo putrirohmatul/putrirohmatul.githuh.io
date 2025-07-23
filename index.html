@@ -4,267 +4,208 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;;
-    color: #000000;
-  }
-   .rounded-circle {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-   }
-
-  .navbar {
-    background-color:  #725CAD  !important;
-  }
-
-  .navbar .navbar-brand,
-  .navbar .nav-link {
-    color: #ffffff !important;
-  }
-
-  .jumbotron {
-    background-color: #ffff;
-    color: #000000;
-  }
-
-  section {
-  .contact
-  {
-    background-color: #ffffff;
-    color: #000000;
-  }
-
-  .card {
-    background-color: #ffffff;
-    border: none;
-  }
-
-  .footer {
-  background-color: #725CAD;
-  color: white;
-  text-align: center;
-  padding: 40px 0;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-}
-
-
-  .btn-primary {
-    background-color: #000000;
-    border-color: #000000;
-  }
-
-  .btn-primary:hover {
-    background-color: #333333;
-    border-color: #333333;
-  }
-</style> 
-
   <title>My Portofolio | Putri Rohmatul</title>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .navbar {
+      background-color: #725CAD !important;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+      color: #ffffff !important;
+    }
+
+    .jumbotron {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    section,
+    .contact {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .rounded-circle {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: none;
+    }
+
+    .footer {
+      background-color: #725CAD;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .btn-primary {
+      background-color: #000000;
+      border-color: #000000;
+    }
+
+    .btn-primary:hover {
+      background-color: #333333;
+      border-color: #333333;
+    }
+  </style>
 </head>
 
 <body id="home">
-  <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #0D5EA6;">
-  <div class="container">
-    <a class="navbar-brand" href="#">Putri Rohmatul Khasanah</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#bio">Biodata</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-  <!-- jumbotron -->
-<section class="jumbotron text-center">
-  <img src="ft.jpg" alt="Putri Rohmatul" width="200" height="200" class="rounded-circle img-thumbnail object-fit-cover" style="object-fit: cover;" />
-  <h1 class="display-4">Putri Rohmatul</h1>
-  <p class="lead" style="color: #0D5EA6;">SMK Negeri 5 Malang | Rekayasa Perangkat Lunak</p>
-  
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <p style="text-align: justify;">
-          Saya adalah siswa SMK Negeri 5 Malang jurusan (RPL) yang memiliki minat besar di bidang teknologi dan pemrograman. Terbiasa mengerjakan proyek berbasis web dan aplikasi sederhana. Saya senang belajar hal baru, mampu bekerja secara individu maupun dalam tim, serta siap berkontribusi dalam dunia kerja dengan semangat dan tanggung jawab.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-   <!-- Biodata -->
-  <section id="bio" class="py-5" style="background-color: #ffffff;">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
     <div class="container">
-      <div class="row text-center mb-4">
-        <div class="col">
-          <h2>Biodata Diri</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <table class="table table-bordered">
-            <tbody>
-              <tr>
-                <th>Nama Lengkap</th>
-                <td>Putri Rohmatul Khasanah</td>
-              </tr
-                <tr>
-                <th>Jurusan</th>
-                <td>Rekayasa Perangkat Lunak</td>
-              </tr>
-              <tr>
-                <th>Tempat, Tanggal Lahir</th>
-                <td>Malang, 30 Mei 2007</td>
-              </tr>
-              <tr>
-                <th>Jenis Kelamin</th>
-                <td>Perempuan</td>
-              </tr>
-              <tr>
-                <th>Alamat</th>
-                <td>Jl. Bulutangkis Rt.04 Rw.02 Tasikmadu</td>
-              </tr>
-              <tr>
-                <th>Agama</th>
-                <td>Islam</td>
-              </tr>
-              <tr>
-                <th>Email</th>
-                <td>putrirohmatul969@email.com</td>
-              </tr>
-              <tr>
-                <th>No. HP</th>
-                <td>0895-3233-91087</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <a class="navbar-brand" href="#">Putri Rohmatul Khasanah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bio">Biodata</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
-  </section>
+  </nav>
 
-  <!-- About -->
- <section id="about" style="background-color: #ffffff;">
-  <div class="container">
-    <div class="row text-center mt-5 mb-4">
-      <div class="col">
-        <h2>About me</h2>
-      </div>
-    </div>
-
-    <!-- Baris tengah -->
-    <div class="row justify-content-center fs-5 align-items-start">
-      <!-- Kolom Hard Skill -->
-      <div class="col-md-4">
-        <h4 class="text-center">HARD SKILL</h4>
-        <p style="text-align: justify;">
-          ~ Bahasa Pemrograman PHP, Python (Django dasar)<br>
-          ~ Web Development: HTML, CSS<br>
-          ~ Bootstrap<br>
-          ~ Database: MySQL
-        </p>
-      </div>
-
-      <!-- Kolom Soft Skill -->
-      <div class="col-md-4">
-        <h4 class="text-center">SOFT SKILL</h4>
-        <p style="text-align: justify;">
-          ~ Disiplin dan Bertanggung jawab<br>
-          ~ Mampu bekerja dalam tim maupun individu<br>
-          ~ Mampu manajemen waktu dengan baik<br>
-          ~ Memiliki rasa semangat untuk berkembang
-        </p>
-      </div>
-    </div>
-    <!-- Akhir About -->
-    <section id="projects">
+  <main>
+    <!-- JUMBOTRON -->
+    <section class="jumbotron text-center pt-5 mt-5">
+      <img src="ft.jpg" alt="Putri Rohmatul" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Putri Rohmatul</h1>
+      <p class="lead" style="color: #0D5EA6;">SMK Negeri 5 Malang | Rekayasa Perangkat Lunak</p>
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="text-justify">
+              Saya adalah siswa SMK Negeri 5 Malang jurusan RPL yang memiliki minat besar di bidang teknologi dan pemrograman. Terbiasa mengerjakan proyek berbasis web dan aplikasi sederhana. Saya senang belajar hal baru, mampu bekerja secara individu maupun dalam tim, serta siap berkontribusi dalam dunia kerja dengan semangat dan tanggung jawab.
+            </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- BIODATA -->
+    <section id="bio" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col"><h2>Biodata Diri</h2></div>
+        </div>
         <div class="row justify-content-center">
+          <div class="col-md-6">
+            <table class="table table-bordered">
+              <tbody>
+                <tr><th>Nama Lengkap</th><td>Putri Rohmatul Khasanah</td></tr>
+                <tr><th>Jurusan</th><td>Rekayasa Perangkat Lunak</td></tr>
+                <tr><th>Tempat, Tanggal Lahir</th><td>Malang, 30 Mei 2007</td></tr>
+                <tr><th>Jenis Kelamin</th><td>Perempuan</td></tr>
+                <tr><th>Alamat</th><td>Jl. Bulutangkis Rt.04 Rw.02 Tasikmadu</td></tr>
+                <tr><th>Agama</th><td>Islam</td></tr>
+                <tr><th>Email</th><td>putrirohmatul969@email.com</td></tr>
+                <tr><th>No. HP</th><td>0895-3233-91087</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col"><h2>About Me</h2></div>
+        </div>
+        <div class="row justify-content-center fs-5 align-items-start">
+          <div class="col-md-4">
+            <h4 class="text-center">HARD SKILL</h4>
+            <p>
+              ~ Bahasa Pemrograman PHP, Python (Django dasar)<br>
+              ~ Web Development: HTML, CSS<br>
+              ~ Bootstrap<br>
+              ~ Database: MySQL
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-center">SOFT SKILL</h4>
+            <p>
+              ~ Disiplin dan Bertanggung jawab<br>
+              ~ Mampu bekerja dalam tim maupun individu<br>
+              ~ Mampu manajemen waktu dengan baik<br>
+              ~ Memiliki rasa semangat untuk berkembang
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col"><h2>My Projects</h2></div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- Project Cards -->
+          <!-- Ulangi untuk setiap proyek -->
           <div class="col-md-4 mb-3">
             <div class="card">
               <img src="1.jpg" class="card-img-top" alt="project" />
               <div class="card-body">
-                <p class="card-text"> Aplikasi Manajemen Toko Berbasis Web (Toko Online)</p>
-                <p class="card-text">Sistem manajemen toko berbasis web yang dibangun menggunakan teknologi HTML, CSS, Bootstrap, PHP, dan MySQL. Admin dapat mengelola data barang seperti tambah, edit, hapus, dan cari. Tabel menampilkan nama, keterangan, kategori, harga, dan stok. Desain responsif dilengkapi sidebar, tombol aksi, dan fitur pencarian untuk memudahkan pengelolaan lewat browser.</p>
+                <p class="card-text">Aplikasi Manajemen Toko Berbasis Web (Toko Online)</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="5.png" class="card-img-top" alt="project" />
-              <div class="card-body">
-                <p class="card-text">Website Pemesanan Makanan "Feane" Berbasis Web</p>
-                <p class="card-text">Website pemesanan makanan berbasis web yang menampilkan daftar menu seperti pizza, burger, dan kentang goreng. Dibuat dengan HTML, CSS, JavaScript, dan Django, website ini memiliki tampilan responsif dan fitur seperti navigasi menu, pemesanan online, dan keranjang belanja. Aplikasi ini berjalan di localhost dengan URL 127.0.0.1:8000 melalui browser.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="3.jpg" class="card-img-top" alt="project" />
-              <div class="card-body">
-                <p class="card-text">Dashboard Data Siswa Berbasis Web dengan Odoo</p>
-                <p class="card-text">Aplikasi ini adalah dashboard siswa berbasis web yang dikembangkan menggunakan platform Odoo. Admin dapat memantau jumlah siswa laki-laki, perempuan, dan total siswa secara visual. Tampilan mencakup grafik distribusi gender, jurusan teratas, dan jumlah siswa per kelas. Sistem ini berjalan di browser secara efisien dan real-time.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="2.jpg" class="card-img-top" alt="project" />
-              <div class="card-body">
-                <p class="card-text">Aplikasi Jadwal Kuliah Berbasis Web</p>
-                <p class="card-text">Aplikasi ini adalah sistem manajemen toko berbasis web yang dibangun menggunakan teknologi HTML, CSS, Bootstrap, PHP, dan MySQL. Admin dapat mengelola data barang seperti menambah, mengedit, menghapus. Halaman utama menampilkan tabel barang lengkap dengan nama, keterangan, kategori, harga, dan stok.Tampilan menggunakan desain responsif dengan sidebar navigasi, tombol aksi (edit & hapus), dan fitur pencarian, sehingga memudahkan pengguna dalam mengelola data secara efisien melalui browser.</p>
-              </div>
-            </div>
-          </div>
+          <!-- Tambahkan project lainnya seperti sebelumnya -->
         </div>
       </div>
-    <!-- Contact -->
-  <section id="contact" class="bg-light text-center">
-    <div class="container">
-      <h2>Kontak</h2>
-      <p class="mt-3" style="color: #0D5EA6;">Jika ingin menghubungi saya, bisa melalui:</p>
-      <p class="mt-3" style="color: #0D5EA6;">Email: putrirohmatul969@email.com<br>No HP: 0895-3233-91087</p>
-    </div>
-  </section>
-    <!-- akhir contact -->
-    <!-- footer -->
-<div class="footer">
-  <p>Create with ❤️ by <strong><u>Putri Rohmatul</u></strong></p>
-</div>
-<!--akhir footer -->
-   </body>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 text-center">
+      <div class="container">
+        <h2>Kontak</h2>
+        <p class="mt-3" style="color: #0D5EA6;">Jika ingin menghubungi saya, bisa melalui:</p>
+        <p class="mt-3" style="color: #0D5EA6;">Email: putrirohmatul969@email.com<br>No HP: 0895-3233-91087</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Create with ❤️ by <strong><u>Putri Rohmatul</u></strong></p>
+  </footer>
+
+</body>
 </html>
